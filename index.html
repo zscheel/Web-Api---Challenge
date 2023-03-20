@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-<title>Coding Quiz</title>
-</head>
-<body>
-    <header>
-        <div class="highscore">Veiw Highscores</h1>
-        <div class ="timer">Timer</div>
-    </header>
-    <section class="quiz">
-        <h1>Coding Quiz challenge</h1>
-        <p>Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-        <button> Start Quiz </button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/style.css">
+        <title>Coding Quiz</title>
+    </head>
+    <body>
+        <header>
+            <div class="highscore">Veiw Highscores</h1>
+            <div class ="timer">Timer</div>
+        </header>
+        <section id="quiz">
+            <h1 class ="quiz-title">Coding Quiz challenge</h1>
+            <p class="quiz-content">Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button id="start">Start Quiz</button>
 
-    </section>
-</body>
+        </section>
+        <section class="quiz-stuff">
+            <div id="container" class="hidden">
+                <div id="question-container" >
+                    <div id="question">Question</div>
+                    <div id="answer-buttons" class="buttons">
+                        <button class="btn">Answer1</button>
+                        <button class="btn">Answer2</button>
+                        <button class="btn">Answer3</button>
+                        <button class="btn">Answer4</button>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        
+        <script src="assets/script.js"></script>
+    </body>
 </html>
