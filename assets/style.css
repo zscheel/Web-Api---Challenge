@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+
+}
+
+
+header {
+    background-color: white;
+    height: 60px;
+    display: inline;
+}
+
+.highscore {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.timer {
+    font-size: 20px;
+    float: right;
+    padding-right: 10px;
+    display: inline;
+}
+
+.quiz {
+    margin: auto;
+    margin-top: 50px;
+    border: black solid;
+    width: 50%;
+    text-align: center;
+}
+
+.quiz h1 {
+    padding: 10px;
+}
+
+.quiz p {
+    margin: 10px;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quiz button {
+    margin: 10px;
+    background-color: red;
+    color: white;   
+}
+.quiz button:hover {
+    background-color: black;
+}
