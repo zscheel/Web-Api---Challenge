@@ -60,8 +60,15 @@ header {
     height: 200px;
 }
 
+.value {
+    margin: auto;
+    width: 50%;
+    color: gray;
+}
+
 #container {
     max-width: 80%;
+    min-width: 30%;
     border: solid black;
     padding: 10px
 }
