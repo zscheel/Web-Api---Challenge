@@ -2,17 +2,18 @@
 
 ## Description
 
-- The purpose was to create a random password generator
-- Had to write javascript code to vring up certain criterias and then use those inputs to create the password for the user
+- The purpose was to quiz about code.
+- Had to write javascript code to switch questions each time a answer was chosen.
 
 
 ## Usage
 
-The user inputs how long the password needs to be and then answers a series of prompts that helps create a password for the user
+User selects a option then the computer says if it is corret or not and if not it deducts time
+Then user can input name and score.
 
 ## Link to website 
 
-https://zscheel.github.io/Password-Generator-/
+https://zscheel.github.io/Web-Api---Challenge/
 
 ## Screenshot
 

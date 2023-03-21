@@ -112,7 +112,7 @@ var questions = [
         ]
     },
     {
-        question: 'What do we use to tel other coders what our code does?',
+        question: 'What do we use to tell other coders what our code does?',
         answers: [
            { text: 'numbers', correct: false },
            { text: 'letters', correct: false },     
