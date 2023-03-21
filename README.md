@@ -8,7 +8,7 @@
 
 ## Usage
 
-User selects a option then the computer says if it is corret or not and if not it deducts time
+User selects a option then the computer says if it is correct or not and if not it deducts time
 Then user can input name and score.
 
 ## Link to website 
